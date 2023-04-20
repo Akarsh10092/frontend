@@ -1,0 +1,80 @@
+.project-card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10%;
+  gap: 5px;
+  padding: 10px;
+  width: 300px;
+  height: 500px;
+  box-shadow: rgb(1, 8, 18) 0px 0px 5px 0px, rgb(5, 43, 95) 0px 0px 1px 0px;
+  background-color: rgba(4, 22, 48, 1);
+  transition: all 0.6s ease;
+}
+.img {
+  margin-top: 12px;
+  height: 200px;
+  width: 250px;
+  transition: all 0.5s ease 0s;
+}
+.project-card:hover {
+  box-shadow: rgba(55, 28, 255, 0.199) -10px 10px,
+    rgba(168, 28, 255, 0.19) -20px 20px;
+}
+.project-card:hover .img {
+  border-radius: 20%;
+}
+h2 {
+  font-size: 20px;
+}
+.para p {
+  height: 8rem;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 206, 158, 1);
+  color: rgba(248, 247, 255, 1);
+  padding: 10px 20px;
+  margin: 0px 10px 0px 10px;
+  border: 2px solid rgba(0, 206, 158, 1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100px;
+}
+.btn:hover {
+  background: rgba(249, 105, 14, 1);
+  color: rgba(248, 247, 255, 1);
+  border: 2px solid rgba(249, 105, 14, 1);
+}
+.btn-light:hover {
+  border: 2px solid rgba(249, 105, 14, 1);
+}
+.btn-light {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: rgba(248, 247, 255, 1);
+  padding: 10px 20px;
+  margin: 0px 10px 0px 10px;
+  border: 2px solid rgba(0, 206, 158, 1);
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100px;
+}

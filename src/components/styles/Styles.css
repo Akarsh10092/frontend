@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  gap: 1px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 100%;
+}
+
+.skill-name {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: grid;
+  }
+  img {
+    height: 40px;
+    width: 40px;
+  }
+  .skill-name {
+    font-size: 0.8rem;
+  }
+}

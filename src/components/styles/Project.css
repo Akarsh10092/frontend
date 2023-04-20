@@ -1,0 +1,30 @@
+.projects {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1.2rem;
+  gap: 1.4rem;
+}
+.grid-pro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 80px;
+  padding: 2rem 2rem 2rem 8rem;
+}
+hr {
+  height: 2px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 740px) {
+  .grid-pro {
+    max-width: 100%;
+    margin-right: 100px;
+    grid-template-columns: 1fr;
+  }
+}
